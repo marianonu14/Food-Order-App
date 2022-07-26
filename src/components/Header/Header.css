@@ -1,3 +1,32 @@
 .header {
-    background-color: red;
+    background-color: var(--color-cuaternario);
+    padding: 1rem;
+    opacity: .9;
+    box-shadow: 0 .4rem .4rem 0 var(--color-cuaternario);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+}
+
+.navbar li {
+    position: relative;
+    color: var(--color-primario);
+    font-size: clamp(1.5rem, 3.0vw, 2.2rem);
+}
+
+.navbar-logo {
+    background-image: url('../../img/Logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12rem;
+    height: 8rem;
+}
+
+.navbar-button {
+    display: flex;
+    align-items: center;
 }

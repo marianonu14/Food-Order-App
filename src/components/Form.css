@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin-bottom: 2.5rem;
+    font-size: clamp(1.3rem, 1.5vw, 5rem);
+}
+
+span {
+    color: red;
+}
+
+input {
+    border-radius: 1rem;
+    padding: 0.8rem;
+    border: none;
+}

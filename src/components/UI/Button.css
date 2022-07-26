@@ -1,0 +1,36 @@
+.button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: clamp(1rem, 1.2vw, 5rem);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid var(--color-terciario);
+    background: var(--color-terciario);
+}
+
+.button:hover {
+  background: #fff;
+  color: var(--color-terciario)
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button span {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.button:hover span {
+  color: var(--color-terciario);
+}

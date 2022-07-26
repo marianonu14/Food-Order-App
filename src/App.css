@@ -5,7 +5,7 @@
   --fuente-principal: 'Roboto Condensed', sans-serif;
   --color-primario: #EEEBDD;
   --color-secundario: #D8B6A4;
-  --color-terciario: #991b1b;
+  --color-terciario: #d61818;
   --color-cuaternario: #1c1917;
 }
 
@@ -21,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--fuente-principal);
-  font-size: 1.6rem;
+  font-size: clamp(1rem, 1.1vw, 5rem);
   line-height: 2;
 }
 
