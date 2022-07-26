@@ -6,7 +6,7 @@
     top: 25vh;
     left: 20vw;
     width: 60%;
-    height: 60vh;
+    height: 65vh;
     padding: 3rem;
     background-color: var(--color-primario);
     border-radius: 1rem;
@@ -28,13 +28,13 @@
 .card-form {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     position: absolute;
     gap: .8rem;
     top: 25vh;
     left: 30vw;
     width: 40%;
-    height: 60vh;
+    max-height: 70vh;
     padding: 3rem;
     background-color: var(--color-primario);
     border-radius: 1rem;
@@ -42,9 +42,17 @@
 }
 
 .form-title {
-    font-size: clamp(1.5rem, 2vw, 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
     text-align: center;
     margin: 0;
+}
+
+.form-title span {
+    font-size: clamp(1.5rem, 3.5vw, 4rem);
 }
 
 @media (max-width: 768px) {

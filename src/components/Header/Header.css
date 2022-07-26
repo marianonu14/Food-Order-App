@@ -1,8 +1,7 @@
 .header {
-    background-color: var(--color-cuaternario);
+    background-color: #ffffffde;
     padding: 1rem;
-    opacity: .9;
-    box-shadow: 0 .4rem .4rem 0 var(--color-cuaternario);
+    box-shadow: 0 .4rem .4rem 0 #ffffffde;
 }
 
 .navbar {
@@ -22,6 +21,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transform: scale(0.8);
     width: 12rem;
     height: 8rem;
 }
