@@ -1,7 +1,6 @@
 .header {
-    background-color: #ffffffde;
-    padding: 1rem;
-    box-shadow: 0 .4rem .4rem 0 #ffffffde;
+    background-color: #ffffffe6;
+    box-shadow: 0 .4rem .4rem 0 #ffffffe6;
 }
 
 .navbar {
@@ -17,7 +16,7 @@
 }
 
 .navbar-logo {
-    background-image: url('../../img/Logo.png');
+    background-image: url('../../assets/Logo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,5 +27,13 @@
 
 .navbar-button {
     display: flex;
+    align-items: center;
+}
+
+.navbar-button-auth {
+    display: flex;
+    width: auto;
+    gap: 1.5rem;
+    justify-content: space-between;
     align-items: center;
 }

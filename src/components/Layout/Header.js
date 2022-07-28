@@ -12,7 +12,7 @@ const Header = (props) => {
                 <li className='navbar-logo'></li>
                 <li className='navbar-button'>
                     <Button 
-                    title={props.onLoginState ? `Main` : 'Log In'} 
+                    title={props.onLoginState ? `Main` : 'LogIn'} 
                     onClick={props.onLogIn} 
                     icon={props.onLoginState ? icon2 : icon}/>
                 </li>

@@ -1,5 +1,5 @@
-import Card from './UI/Card';
-import Button from './UI/Button';
+import Card from '../UI/Card';
+import Button from '../UI/Button';
 
 const Main = (props) => {
     return ( 
